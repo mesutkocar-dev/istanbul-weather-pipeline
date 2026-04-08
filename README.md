@@ -40,8 +40,8 @@ Bu proje, İstanbul için anlık hava durumu koşullarını simüle eden bir **b
 
 ---
 
-##  How to Run | Nasıl Çalıştırılır
+##   How to Run | Nasıl Çalıştırılır
 
 1. **Clone the repository | Depoyu indirin:**
    ```bash
-   git clone [https://github.com/mesutkocar-dev/istanbul-weather-pipeline.git](https://github.com/mesutkocar-dev/istanbul-weather-pipeline.git)
+   git clone [https://github.com/KULLANICI_ADIN/REPO_ADIN.git](https://github.com/KULLANICI_ADIN/REPO_ADIN.git)
