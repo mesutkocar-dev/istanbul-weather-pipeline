@@ -1,6 +1,3 @@
-# istanbul-weather-pipeline
-Istanbul weather simulation and data visualization pipeline built with Python.  
-(Python ile oluşturulmuş İstanbul hava durumu simülasyonu ve veri görselleştirme hattı.)
 #  İstanbul Weather Simulator & Data Pipeline
 
 [English]
@@ -11,37 +8,40 @@ Bu proje, İstanbul için anlık hava durumu koşullarını simüle eden bir **b
 
 ---
 
-##  Visual Analysis | Görsel Analiz
+# Visual Analysis | Görsel Analiz
+
 ![Weather Simulation Report](weather_report.png)
-*Note: The chart above is generated in real-time by the simulator.*
+
+> **Note:** If the image doesn't appear, please run `weather_simulator.py` first to generate the file.
+> **Not:** Eğer görsel görünmüyorsa, dosyayı oluşturmak için lütfen önce `weather_simulator.py` kodunu çalıştırın.
 
 ---
 
-##  Key Features | Öne Çıkan Özellikler
+# Key Features | Öne Çıkan Özellikler
 
-* **In-Memory Processing:** No physical database or CSV files are required. All data is generated, processed, and visualized directly in RAM for maximum performance.
+* **In-Memory Processing:** No physical database or CSV files are required. All data is processed directly in RAM for maximum performance.
 * **Realistic Simulation:** Implements a sine-wave based model to mimic the natural day/night temperature cycle of Istanbul.
-* **Dual-Axis Visualization:** Displays two different data scales (Celsius and Percentage) on a single cohesive chart.
-* **Zero-Footprint:** Designed to run without leaving temporary files behind, keeping your workspace clean.
+* **Dual-Axis Visualization:** Displays temperature (Celsius) and humidity (Percentage) on a single cohesive chart.
+* **Zero-Footprint:** Designed to run without leaving temporary files behind.
 
-* **Bellek İçi İşleme:** Fiziksel veritabanı veya CSV dosyası gerektirmez. Maksimum performans için tüm veriler doğrudan RAM üzerinde üretilir ve işlenir.
-* **Gerçekçi Simülasyon:** İstanbul'un doğal gece/gündüz sıcaklık döngüsünü taklit etmek için sinüs dalgası tabanlı bir model uygular.
-* **Çift Eksenli Görselleştirme:** İki farklı veri ölçeğini (Derece ve Yüzde) tek bir uyumlu grafik üzerinde gösterir.
-* **Sıfır Ayak İzi:** Geçici dosyalar bırakmadan çalışacak şekilde tasarlanmıştır.
+* **Bellek İçi İşleme:** Fiziksel veritabanı veya CSV dosyası gerektirmez. Maksimum performans için tüm veriler doğrudan RAM üzerinde işlenir.
+* **Gerçekçi Simülasyon:** İstanbul'un doğal gece/gündüz sıcaklık döngüsünü taklit etmek için sinüs dalgası tabanlı bir model kullanır.
+* **Çift Eksenli Görselleştirme:** Sıcaklık (Derece) ve nemi (Yüzde) tek bir uyumlu grafik üzerinde gösterir.
+* **Sıfır Ayak İzi:** Çalışma sonrası gereksiz dosya bırakmaz.
 
 ---
 
-## 🛠️ Tech Stack | Teknolojiler
+#  Tech Stack | Teknolojiler
 
-* **Language:** Python 3.14
+* **Language:** Python
 * **Data Science:** Pandas, NumPy
-* **Visualization:** Matplotlib (Seaborn-style)
-* **Modeling:** Stochastic Processes & Sine-Wave Modeling
+* **Visualization:** Matplotlib
 
 ---
 
-##   How to Run | Nasıl Çalıştırılır
+#  How to Run | Nasıl Çalıştırılır
 
 1. **Clone the repository | Depoyu indirin:**
    ```bash
-   git clone [https://github.com/KULLANICI_ADIN/REPO_ADIN.git](https://github.com/KULLANICI_ADIN/REPO_ADIN.git)
+   # Replace YOUR_USERNAME with your actual GitHub username
+   git clone [https://github.com/YOUR_USERNAME/istanbul-weather-pipeline.git](https://github.com/YOUR_USERNAME/istanbul-weather-pipeline.git)
